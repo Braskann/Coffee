@@ -20,8 +20,8 @@
                 <div class="nav">
                     <ul>
                         <li><a href="#seed">Зерно</a></li>
-                        <li><a href="#">Меню</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#menu">Меню</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
                         <li><a href="tel:+79990934300">+7 (999) 093-43-00</a></li>
                     </ul>
                 </div>
@@ -32,7 +32,7 @@
                 <div class="offer-text">
                     <h1>Кофе с собой</h1>
                     <p>Текст, который раскроет покупателем какие мы классные ребята и как вкусно и с любовью мы варим кофе, который вы можете купить у нас навынос</p>
-                    <button>Посмотреть меню</button>
+                    <button class="btn">Посмотреть меню</button>
                 </div>
                 <div class="offer-img">
                     <div class="back">
@@ -71,7 +71,7 @@
     </section>
     <section class="coffee-menu">
         <div class="container">
-            <h2>Меню</h2>
+            <h2 id="menu">Меню</h2>
             <div class="menu-main">
                 <div class="menu-coffee">
                     <h3>Кофе</h3>
@@ -104,7 +104,7 @@
                 </div>
                 <div class="menu-tea">
                     <h3>Не кофе</h3>
-                    <div class="menu-coffee-cards">
+                    <div class="menu-ne-coffee-cards">
                         <div class="menu-tea-card">
                             <div class="menu-coffee-card-text">
                                 <p>Колумбия</p>
@@ -134,7 +134,7 @@
             </div>
             <div class="menu-brand">
                 <h3>Фирменное</h3>
-                <div class="menu-coffee-cards">
+                <div class="menu-brand-cards">
                     <div class="menu-brand-card">
                         <div class="menu-coffee-card-text">
                             <p>Колумбия</p>
@@ -160,8 +160,87 @@
                         </div>
                     </div>
                 </div>
+                <button class="btn">Больше кофе</button>
             </div>
         </div>
     </section>
+    <section class="why-we">
+        <div class="container">
+            <h2>Почему мы</h2>
+            <div class="caracity">
+                <div class="ellipse-border">
+                    <div class="ellipse">
+                        <p>Качественное <br> зерно</p>
+                    </div>
+                </div>
+                <div class="ellipse-border">
+                    <div class="ellipse">
+                        <p>Харизматичные <br> бариста</p>
+                    </div>
+                </div>
+                <div class="ellipse-border">
+                    <div class="ellipse">
+                        <p>Кофе <br> с любовью</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="container">
+            <h2 id="contacts">Контакты</h2>
+            <div class="form-map">
+                <div class="form">
+                    <h3>Свяжитесь с нами</h3>
+                    <form action="#">
+                        <input type="name" placeholder="Имя">
+                        <input type="email" placeholder='Почта'>
+                        <textarea name="" id="" cols="30" rows="10" placeholder='Ваше сообщение'></textarea>
+                        <input type="submit" class="btn btn-form">
+                    </form>
+                </div>
+                <div class="map-text">
+                    <h3>Мы на карте</h3>
+                    <div class="map">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A48d1586b1db73fa464ced9f38d2ac4162512bcd50935e17d4568e1a402aa0b7c&amp;width=950&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="icons">
+                <a href="#"><img src="img/icon-facebook.svg" alt=""></a>
+                <a href="#"><img src="img/icon-instagram.svg" alt=""></a>
+                <a href="#"><img src="img/icon-vk.svg" alt=""></a>
+            </div>
+            <div class="footer-contacts">
+                <div class="contact">
+                    <p>Режим работы</p>
+                    <p>7:00 - 18:00</p>
+                </div>
+                <div class="contact">
+                    <p>Телефон</p>
+                    <p>+7 (999) 093-43-00</p>
+                </div>
+                <div class="contact">
+                    <p>E-mail</p>
+                    <p>info@coffee.ru</p>
+                </div>
+                <div class="contact">
+                    <p>Адрес</p>
+                    <p>г. Нижний Новгород <br> ул. Какая-то, дом 10</p>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <div class="logo">
+                    <p>Зерно</p>
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+                <p>Варим кофе с любовью</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
